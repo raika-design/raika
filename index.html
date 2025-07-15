@@ -3,44 +3,108 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="RAIKA.DESIGN — Creative Director Portfolio" />
-  <title>RAIKA.DESIGN</title>
+  <title>Raika – Creative Director</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/@fontsource-variable/canela/index.css" rel="stylesheet">
   <style>
     body {
-      font-family: 'Inter', sans-serif;
       background-color: #fefdfb;
       color: #2e2d2b;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-      text-align: center;
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #d2c4e0;
       padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-family: 'Seasons', serif;
+      font-size: 2.5rem;
       margin: 0;
     }
-    h1 { font-size: 3rem; margin-bottom: 0.5rem; }
-    h2 { font-size: 1.5rem; color: #666; margin-bottom: 1rem; }
-    p { max-width: 600px; color: #888; margin-bottom: 2rem; }
-    a {
-      padding: 0.75rem 1.5rem;
-      border: 1px solid #ccc;
-      border-radius: 999px;
-      text-decoration: none;
-      color: #2e2d2b;
-      transition: background 0.3s;
+    header p {
+      font-style: italic;
+      margin-top: 0.5rem;
     }
-    a:hover {
-      background-color: #f3f3f3;
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      padding: 1rem;
+      background-color: #bccfb1;
+    }
+    nav a {
+      color: #2e2d2b;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    nav a:hover {
+      color: #7d9fc7;
+    }
+    main {
+      padding: 2rem;
+      max-width: 720px;
+      margin: 0 auto;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    h2 {
+      font-family: 'Canela', serif;
+      font-size: 1.75rem;
+      margin-bottom: 0.5rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      background-color: #f3c47b;
     }
   </style>
 </head>
 <body>
-  <h1>RAIKA.DESIGN</h1>
-  <h2>Creative Director Portfolio</h2>
-  <p>Elegant, poetic, and timeless design — where stories are shaped with quiet confidence.</p>
-  <a href="mailto:hello@raika.design">Contact: hello@raika.design</a>
+  <header>
+    <h1>Raika – Creative Director</h1>
+    <p>Quiet confidence. Thoughtful design. Curious mind.</p>
+  </header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#work">Work</a>
+    <a href="#philosophy">Philosophy</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>I’m Raika – a creative director who leads with quiet confidence, designs with care, and lives with gentle curiosity. I like tennis, plants, and a good laugh with friends in the park.</p>
+      <p>My work is grounded in timeless design and soft power, influenced by Japanese aesthetics, modern editorial style, and everyday wonder.</p>
+      <p><a href="https://www.notion.so/your-about-page-link" target="_blank">Read full profile on Notion &rarr;</a></p>
+    </section>
+
+    <section id="work">
+      <h2>Work</h2>
+      <p>A selection of projects will go here, including menswear/underwear brand work, and conceptual explorations like the Aesop Tennis Club.</p>
+      <p><a href="https://www.notion.so/your-work-portfolio-link" target="_blank">Explore work in Notion &rarr;</a></p>
+    </section>
+
+    <section id="philosophy">
+      <h2>Philosophy</h2>
+      <p>I create with intention and softness — always guided by what feels right, not what’s loudest. To design well is to ask good questions.</p>
+      <p>I believe care is a strategy. Beauty is function. Curiosity is creative fuel.</p>
+      <p><a href="https://www.notion.so/your-philosophy-link" target="_blank">View full manifesto in Notion &rarr;</a></p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Let’s connect. I build trust through care, not noise.</p>
+      <p>Email: <a href="mailto:hello@raika.design">hello@raika.design</a></p>
+      <p><a href="https://www.notion.so/your-contact-page-link" target="_blank">Or reach me via Notion &rarr;</a></p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Raika. Always curious. Always caring.</p>
+  </footer>
 </body>
 </html>
-
