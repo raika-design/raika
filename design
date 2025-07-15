@@ -1,0 +1,61 @@
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="RAIKA.DESIGN — Creative Director Portfolio" />
+  <title>RAIKA.DESIGN</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #fefdfb;
+      color: #2e2d2b;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 2rem;
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+      color: #666;
+      margin-bottom: 1rem;
+    }
+    p {
+      max-width: 600px;
+      color: #888;
+      margin-bottom: 2rem;
+    }
+    a {
+      padding: 0.75rem 1.5rem;
+      border: 1px solid #ccc;
+      border-radius: 999px;
+      text-decoration: none;
+      color: #2e2d2b;
+      transition: background 0.3s;
+    }
+    a:hover {
+      background-color: #f3f3f3;
+    }
+  </style>
+</head>
+<body>
+  <h1>RAIKA.DESIGN</h1>
+  <h2>Creative Director Portfolio</h2>
+  <p>Elegant, poetic, and timeless design — where stories are shaped with quiet confidence.</p>
+  <a href="mailto:hello@raika.design">Contact: hello@raika.design</a>
+</body>
+</html>
